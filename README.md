@@ -28,6 +28,9 @@ R code to make many codon partition files for RAxML using fasta alignments as in
 ### [RAxML loop](./raxml_loop.sh)
 For loop to generate many gene trees from exon sequences with codon partition files
 
+### [SumTrees loop](./sumtrees.sh)
+For loop to collapse branches under a minimum threshold bootstrap support
+
 ### [ASTRAL species tree analysis](./astral.sh)
 Code to generate an ASTRAL species tree
 
