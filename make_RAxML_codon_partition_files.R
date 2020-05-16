@@ -1,3 +1,7 @@
+# This script will take many fasta files (hundreds to thousands) and convert them to codon partition files.
+# Alignments should be made with pal2nal which uses amino acid alignments to guide the alignment of nucleotides.
+# BE CAREFUL this code deletes the orignal fasta file. BACK THEM UP!!!
+
 library(seqinr)
 
 fileNames <- Sys.glob("*.fasta")
