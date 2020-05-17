@@ -38,4 +38,4 @@ Code to generate an ASTRAL species tree.
 Code to generate a concatenated phylogeny with partitions by gene.
 
 ### [Phyparts](https://bitbucket.org/blackrim/phyparts/src/master/)
-Code to show gene tree agreement and discordance at all nodes on species trees. PhypartsPieCharts(https://github.com/mossmatters/phyloscripts/tree/master/phypartspiecharts) is used to plot charts on the nodes of a target tree.
+Code to show gene tree agreement and discordance at all nodes on species trees. [PhypartsPieCharts](https://github.com/mossmatters/phyloscripts/tree/master/phypartspiecharts) is used to plot charts on the nodes of a target tree.
