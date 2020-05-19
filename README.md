@@ -28,7 +28,7 @@ R code to make many codon partition files for RAxML using fasta alignments as in
 ### [RAxML loop](./raxml_loop.sh)
 For loop to generate many gene trees from exon sequences with codon partition files.
 
-### [SumTrees loop](./sumtrees.sh)
+### [SumTrees collapse loop](./sumtrees.sh)
 For loop to collapse branches under a minimum threshold bootstrap support.
 
 ### [ASTRAL species tree analysis](./astral.sh)
@@ -37,5 +37,8 @@ Code to generate an ASTRAL species tree.
 ### [RAxML concatenated analysis](./raxml_concat.sh)
 Code to generate a concatenated phylogeny with partitions by gene.
 
-### [Phyparts](https://bitbucket.org/blackrim/phyparts/src/master/)
-Code to show gene tree agreement and discordance at all nodes on species trees. [PhypartsPieCharts](https://github.com/mossmatters/phyloscripts/tree/master/phypartspiecharts) is used to plot charts on the nodes of a target tree.
+### [SumTrees rooting loop](./sumtrees_reroot.sh)
+For loop to reroot many gene trees with outgroup taxa.
+
+### [Phyparts](./phyparts.sh)
+Commands used for [Phyparts](https://bitbucket.org/blackrim/phyparts/src/master/) analysis to show gene tree agreement and discordance at all nodes on species trees. [PhypartsPieCharts](https://github.com/mossmatters/phyloscripts/tree/master/phypartspiecharts) is used to plot charts on the nodes of a target tree.
