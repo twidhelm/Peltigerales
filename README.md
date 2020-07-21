@@ -42,3 +42,6 @@ For loop to reroot many gene trees with outgroup taxa.
 
 ### [Phyparts](./phyparts.sh)
 Commands used for [Phyparts](https://bitbucket.org/blackrim/phyparts/src/master/) analysis to show gene tree agreement and discordance at all nodes on species trees. [PhypartsPieCharts](https://github.com/mossmatters/phyloscripts/tree/master/phypartspiecharts) is used to plot charts on the nodes of a target tree.
+
+### [RAxML Shimodaira-Hasegawa test](./SH-test.sh)
+Code for testing whether alternative topologies are significantly worse than the concatenated RAxML reconstructed topology.
