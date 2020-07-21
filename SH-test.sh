@@ -1,4 +1,4 @@
-#
+#!/bin/bash
 
 raxmlHPC-PTHREADS-AVX -f H -t increasing_RAxML_bestTree.tu_filtered_trimal75_45tip_min_125loci.tre -z constrained_topologies.tre -s tu_filtered_trimal75_45tip_min_125loci.fasta -m GTRGAMMA -n SH-test_alt_topos -T 22 -q partition.raxml 
 
